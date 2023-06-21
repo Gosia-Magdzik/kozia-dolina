@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gosia-magdzik.github.io/kozia-dolina/static/css/main.4da62354.css",
+    "main.js": "/gosia-magdzik.github.io/kozia-dolina/static/js/main.00769e28.js",
+    "static/js/787.173c38f8.chunk.js": "/gosia-magdzik.github.io/kozia-dolina/static/js/787.173c38f8.chunk.js",
+    "static/media/logo.jpg": "/gosia-magdzik.github.io/kozia-dolina/static/media/logo.c4ff5dbf3ad86a96f144.jpg",
+    "index.html": "/gosia-magdzik.github.io/kozia-dolina/index.html",
+    "main.4da62354.css.map": "/gosia-magdzik.github.io/kozia-dolina/static/css/main.4da62354.css.map",
+    "main.00769e28.js.map": "/gosia-magdzik.github.io/kozia-dolina/static/js/main.00769e28.js.map",
+    "787.173c38f8.chunk.js.map": "/gosia-magdzik.github.io/kozia-dolina/static/js/787.173c38f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da62354.css",
+    "static/js/main.00769e28.js"
+  ]
+}
