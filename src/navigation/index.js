@@ -1,8 +1,8 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { StyledNavBar, Img, StyledNavToggle, StyledNavLink } from "./styled";
-import logo from "../images/logo.jpg"
+import { StyledNavBar, Img, StyledNavToggle, StyledNavLink, Barn } from "./styled";
+import logo from "../images/logo-removebg.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { image } from "react-bootstrap"
 
 
 export const Navigation = () => {
@@ -12,20 +12,20 @@ export const Navigation = () => {
             as={Navbar}
         >
             <Container>
-                    <Img src={logo}/>
+                <Img src={logo} class="img-fluid"/>
                 <StyledNavToggle
                     as={Navbar.Toggle}
                 />
                 <Navbar.Collapse
                     className="justify-content-end"
                 >
-                <Nav className="ml-auto">
+                <Nav className="mr-auto">
                     <Nav.Link
                         as={StyledNavLink}
                         eventKey="1"
                         to="/"
                     >
-                        🏡
+                    < Barn />
                     </Nav.Link>
                     <Nav.Link
                         as={StyledNavLink}

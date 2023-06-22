@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     //font-family: 'Montserrat', sans-serif;
-    //background: 
+    background: #3549bbc9;
     margin: 0px;
     //transition: background 0.3s;
   };
