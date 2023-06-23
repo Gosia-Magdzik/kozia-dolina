@@ -30,10 +30,7 @@ export const StyledNavToggle = styled(Navbar)`
     transition: 0.3s;
     height: 100px;
     border: none;
-
-    &:hover {
-        border: none;
-    };
+    color: white;
 `;
 
 export const StyledNavLink = styled(NavLink)`
