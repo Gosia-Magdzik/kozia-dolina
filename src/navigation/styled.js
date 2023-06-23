@@ -37,7 +37,6 @@ export const StyledNavLink = styled(NavLink)`
     font-size: 30px;
     margin-right: 15px;
     color: white;
-
 `;
 
 export const Barn = styled(BarnSvg)`
