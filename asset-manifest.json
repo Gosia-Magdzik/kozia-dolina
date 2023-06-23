@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kozia-dolina/static/css/main.4da62354.css",
-    "main.js": "/kozia-dolina/static/js/main.85232b77.js",
+    "main.js": "/kozia-dolina/static/js/main.1e844efe.js",
     "static/js/787.173c38f8.chunk.js": "/kozia-dolina/static/js/787.173c38f8.chunk.js",
     "static/media/13.jpg": "/kozia-dolina/static/media/13.75fbbbc0fe81a4c24bb8.jpg",
     "static/media/12.jpg": "/kozia-dolina/static/media/12.ff6564081c04828df948.jpg",
@@ -21,11 +21,11 @@
     "static/media/barn.svg": "/kozia-dolina/static/media/barn.ffe83b1a47990b5e772361981c079be4.svg",
     "index.html": "/kozia-dolina/index.html",
     "main.4da62354.css.map": "/kozia-dolina/static/css/main.4da62354.css.map",
-    "main.85232b77.js.map": "/kozia-dolina/static/js/main.85232b77.js.map",
+    "main.1e844efe.js.map": "/kozia-dolina/static/js/main.1e844efe.js.map",
     "787.173c38f8.chunk.js.map": "/kozia-dolina/static/js/787.173c38f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4da62354.css",
-    "static/js/main.85232b77.js"
+    "static/js/main.1e844efe.js"
   ]
 }
