@@ -1,17 +1,31 @@
 {
   "files": {
     "main.css": "/kozia-dolina/static/css/main.4da62354.css",
-    "main.js": "/kozia-dolina/static/js/main.a93b0e89.js",
+    "main.js": "/kozia-dolina/static/js/main.85232b77.js",
     "static/js/787.173c38f8.chunk.js": "/kozia-dolina/static/js/787.173c38f8.chunk.js",
+    "static/media/13.jpg": "/kozia-dolina/static/media/13.75fbbbc0fe81a4c24bb8.jpg",
+    "static/media/12.jpg": "/kozia-dolina/static/media/12.ff6564081c04828df948.jpg",
+    "static/media/07.jpg": "/kozia-dolina/static/media/07.f88db293328495fd2554.jpg",
+    "static/media/06.jpg": "/kozia-dolina/static/media/06.0bb71cb18e5cba55f9b3.jpg",
+    "static/media/11.jpg": "/kozia-dolina/static/media/11.30ecd6e67e930d19d696.jpg",
+    "static/media/08.jpg": "/kozia-dolina/static/media/08.f2fddcf139e0f4c5e008.jpg",
+    "static/media/10.jpg": "/kozia-dolina/static/media/10.caaf69e21d39342d392d.jpg",
+    "static/media/meadow.jpg": "/kozia-dolina/static/media/meadow.b6a6086adb452091f591.jpg",
+    "static/media/03.jpg": "/kozia-dolina/static/media/03.f61155d3aa8207d1723a.jpg",
+    "static/media/04.jpg": "/kozia-dolina/static/media/04.b2df2295ac1119410ebb.jpg",
+    "static/media/05.jpg": "/kozia-dolina/static/media/05.969fbddcd023b6365413.jpg",
+    "static/media/09.jpg": "/kozia-dolina/static/media/09.35c5b68f69626e3c2792.jpg",
     "static/media/logo-removebg.png": "/kozia-dolina/static/media/logo-removebg.0531c4b648c802bdacb1.png",
-    "static/media/barn.svg": "/kozia-dolina/static/media/barn.918fd4bb9793cfebffadb1c19ed9d07f.svg",
+    "static/media/01.jpg": "/kozia-dolina/static/media/01.38d9dddc803a4523c590.jpg",
+    "static/media/02.jpg": "/kozia-dolina/static/media/02.8a90c2ce58b0795da8d1.jpg",
+    "static/media/barn.svg": "/kozia-dolina/static/media/barn.ffe83b1a47990b5e772361981c079be4.svg",
     "index.html": "/kozia-dolina/index.html",
     "main.4da62354.css.map": "/kozia-dolina/static/css/main.4da62354.css.map",
-    "main.a93b0e89.js.map": "/kozia-dolina/static/js/main.a93b0e89.js.map",
+    "main.85232b77.js.map": "/kozia-dolina/static/js/main.85232b77.js.map",
     "787.173c38f8.chunk.js.map": "/kozia-dolina/static/js/787.173c38f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4da62354.css",
-    "static/js/main.a93b0e89.js"
+    "static/js/main.85232b77.js"
   ]
 }
