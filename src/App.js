@@ -1,5 +1,4 @@
-import { GlobalStyle }   from "./GlobalStyle";
-import { Container } from "react-bootstrap";
+import { GlobalStyle, StyledContainer }   from "./GlobalStyle";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Gallery } from "./pages/Gallery";
@@ -11,29 +10,29 @@ function App() {
   return (
     <>
       <GlobalStyle/>
-      <Container>
         <HashRouter>
           <Navigation/>
-          <Routes>
-              <Route
-                path="/"
-                element={<Home />}
-              />
-              <Route
-                path="/about"
-                element={<About />}
-              />
-              <Route
-                path="/gallery"
-                element={<Gallery />}
-              />
-              <Route
-                path="/contact"
-                element={<Contact />}
-              />
-          </Routes>
+          <StyledContainer>
+            <Routes>
+                <Route
+                  path="/"
+                  element={<Home />}
+                />
+                <Route
+                  path="/about"
+                  element={<About />}
+                />
+                <Route
+                  path="/gallery"
+                  element={<Gallery />}
+                />
+                <Route
+                  path="/contact"
+                  element={<Contact />}
+                />
+            </Routes>
+          </StyledContainer>
         </HashRouter>
-      </Container>
     </>
   );
 }

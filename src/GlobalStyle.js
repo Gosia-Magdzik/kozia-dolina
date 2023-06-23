@@ -1,5 +1,6 @@
-import { createGlobalStyle } from "styled-components";
-
+import { createGlobalStyle, styled } from "styled-components";
+import meadow from "./images/meadow.jpg";
+import { Container } from "react-bootstrap";
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -11,10 +12,24 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    //font-family: 'Montserrat', sans-serif;
-    background: #3549bbc9;
+    background-image: url(${meadow});
+    background-size: contain;
     margin: 0px;
-    //transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   };
+`;
 
-  `;
+  export const StyledContainer = styled(Container)`
+    margin: 200px 30px 50px 30px;
+    width: 2000px;
+    padding: 25px;
+    background-color: #efefefa6;
+    border-radius: 20px;
+    box-shadow: 10px 10px 11px -2px rgba(66, 68, 90, 1);
+
+    @media (max-width: 768px) {
+      margin: 200px 5px 50px 5px;
+    };
+`;

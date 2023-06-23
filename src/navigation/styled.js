@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { NavLink, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { ReactComponent as BarnSvg } from "../images/barn.svg"
-
+import { NavLink } from "react-router-dom";
 
 export const StyledNavBar = styled(Navbar).attrs({
     expand: "lg",
@@ -9,7 +9,7 @@ export const StyledNavBar = styled(Navbar).attrs({
 })`
     min-height: 170px;
     position: fixed;
-    background: #22221a21;
+    background: #9c9c9cd6;
 `;
 
 export const Img = styled.img`
@@ -28,16 +28,21 @@ export const NavBarIcon = styled(Navbar)`
 
 export const StyledNavToggle = styled(Navbar)`
     transition: 0.3s;
-    height: 150px;
+    height: 100px;
     border: none;
+
+    &:hover {
+        border: none;
+    };
 `;
 
 export const StyledNavLink = styled(NavLink)`
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 15px;
     color: white;
+
 `;
 
 export const Barn = styled(BarnSvg)`
-    height: 60px;
+    height: 80px;
 `;
