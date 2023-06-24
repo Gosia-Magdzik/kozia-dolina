@@ -13,8 +13,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-image: url(${meadow});
-    background-size: contain;
-    margin: 0px;
+    background-size: 1900px auto;
+    background-repeat: repeat;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;

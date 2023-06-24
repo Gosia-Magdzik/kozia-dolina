@@ -17,43 +17,59 @@ import { Row, Col } from "react-bootstrap";
 export const Gallery = () => {
     return (
         <>
-        <Wrapper className="fluid">
-            <Row className="fluid-row" >
-                <Img src={fly2} thumbnail/>
+        <Wrapper className="fluid justify-content-center align-items-center">
+            <Row className=" align-items-center justify-content-center" >
+                <Col xs={10}>
+                    <Img src={fly2} />
+                </Col>
             </Row>
-            <Row className="fluid-row">
-                <Col className="fluid-col">
-                    <Img src={small} thumbnail className="mr-3"/> 
-                    <Img src={spring} thumbnail/>
+            <Row className=" align-items-center justify-content-center">
+                <Col xs={10} sm={10} md={6} lg={6}  >
+                    <Row xs={10} sm={11} md={5} lg={5}>
+                        <Img src={small}/> 
+                    </Row>
+                    <Row xs={10} sm={11} md={5} lg={5} >
+                        <Img src={spring}/> 
+                    </Row>
                 </Col>
-                <Col className="fluid-col">
-                    <Img src={born} thumbnail/>
+                <Col className="justify-content-center align-items-center" xs={10} sm={106} md={6} lg={6}  >
+                    <Img src={born} />
                 </Col>
-                <Row className="fluid-row">
-                    <Col className="fluid-col">
-                        <Img src={oscypek} thumbnail/>
+            </Row>
+            <Row className="justify-content-center align-items-center">
+                    <Col className="fluid-col" xs={10} sm={10} md={6} lg={6}>
+                        <Img src={oscypek} />
                     </Col>
-                    <Col className="fluid-col">
-                        <Img src={shop} thumbnail/>
+                    <Col xs={10} sm={10} md={6} lg={6}>
+                        <Img src={shop}/>
                     </Col>
-                    <Col className="fluid-col">
-                        <Row className="fluid-row"><Img src={winter} thumbnail/></Row>
-                        <Row className="fluid-row"><Img src={orfeusz}thumbnail/></Row>
-                    </Col>
-                </Row>
-                <Img src={fly} thumbnail/>
-                <Row className="fluid-row">
-                    <Col className="fluid-col"><Img src={smoked} thumbnail/></Col>
-                    <Col>
+            </Row>
+            <Row className="justify-content-center align-items-center" >
+                <Col xs={10} sm={10} md={5} lg={6}><Img src={winter} /></Col>
+                <Col xs={10} sm={10} md={5} lg={6} ><Img src={orfeusz}/></Col>
+            </Row>
+            <Row className="justify-content-center align-items-center" >
+                <Col xs={10} >
+                    <Img src={fly}/>
+                </Col>
+            </Row>
+            <Row className=" align-items-center justify-content-center">
+                    <Col className="fluid-col" xs={10} sm={10} md={4} lg={4}><Img src={smoked} /></Col>
+                    <Col xs={10} sm={10} md={4} lg={4}>
                         <Row className="fluid-row">
-                            <Col className="fluid-col"><Img src={sunrise} thumbnail/></Col>
+                            <Col className="fluid-col"><Img src={sunrise} /></Col>
                         </Row>
-                        <Row className="fluid-row">
-                            <Col className="fluid-col"><Img src={lady} thumbnail/></Col>
+                        <Row className=" align-items-center justify-content-center">
+                            <Col className=" align-items-center justify-content-center" xs={10} >
+                                <Img src={lady}/>
+                            </Col>
                         </Row>
                     </Col>
-                </Row>
-                <Img src={sunset} thumbnail/>
+            </Row>
+            <Row className=" align-items-center justify-content-center">
+                    <Col xs={11} className="justify-content-center">
+                    <Img src={sunset}/>
+                    </Col>
             </Row>
         </Wrapper>
         </>

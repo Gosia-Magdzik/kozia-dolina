@@ -5,11 +5,21 @@ const spacing = 15;
 
 export const Img = styled(Image)`
   margin-bottom: 15px;
-  border-radius: 10px;
-  width: 100%;
+  margin-top: 2px;
+  max-width: 100%;
   height: auto;
-  vertical-align: auto;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  @media (min-width: 768px) {
+    padding: 0 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -21,6 +31,7 @@ export const Wrapper = styled.div`
     .fluid-row {
       display: flex;
       flex-wrap: wrap;
+
     }
 
     .fluid-col {
