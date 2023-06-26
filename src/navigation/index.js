@@ -28,20 +28,13 @@ export const Navigation = () => {
                     <Nav.Link
                         as={StyledNavLink}
                         eventKey="2"
-                        to="about"
-                    >
-                        O nas
-                    </Nav.Link>
-                    <Nav.Link
-                        as={StyledNavLink}
-                        eventKey="3"
                         to="/gallery"
                     >
                         Galeria
                     </Nav.Link>
                     <Nav.Link
                         as={StyledNavLink}
-                        eventKey="4"
+                        eventKey="3"
                         to="contact"
                     >
                         Kontakt
