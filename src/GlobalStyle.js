@@ -12,9 +12,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-image: url(${meadow});
-    background-size: 1900px auto;
-    background-repeat: repeat;
+    //background-image: url(${meadow});
+    //background-size: 1900px auto;
+    //background-repeat: repeat;
+    background-color: #2e66668a;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -31,15 +32,13 @@ export const GlobalStyle = createGlobalStyle`
     box-shadow: 10px 10px 11px -2px rgba(66, 68, 90, 1);
 
   @media (max-width: 768px) {
-    width: 100%;
     margin: 200px 10px 50px 10px;
     padding: 5px;
   }
 
   @media (max-width: 575px) {
-    width: 100%;
+    width: 500px;
     margin: 200px 5px 50px 5px;
-    margin-left: 15px;
     padding: 3px;
   }
 `;
