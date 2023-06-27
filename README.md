@@ -1,6 +1,6 @@
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1; text-align: center; font-size: 31px;">
+<div style="display: flex; flex-direction:row; align-items: center;">
+  <div style="flex: 1; text-align: center; font-size: 28px;">
     Welcome to the Goat Valley
   </div>
   <div style="flex: 1; text-align: right;">
