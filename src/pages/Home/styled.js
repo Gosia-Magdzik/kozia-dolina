@@ -62,20 +62,19 @@ export const Img = styled.img`
     object-fit: contain;
 `;
 
-export const Info = styled.p`
+export const InfoContainer = styled.div`
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     font-size: 50px;
-    //color: #3a9938;
     margin: 15px;
 
     @media (max-width: 768px) {
         font-size: 30px;
-        //word-wrap: break-word;
         align-items: center;
         justify-content: center;
         display: flex;
+        flex-direction: column; 
   }
 `;
 
@@ -97,11 +96,32 @@ export const Product = styled.img`
     height: auto;
 
         &:hover {
-        scale: 1.05;
-        filter: brightness(105%);
+            scale: 1.05;
+            filter: brightness(105%);
         };
 
     @media (max-width: 768px) {
         max-height: 200px;
     }
+`;
+
+export const Footer = styled.div`
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    position: relative;
+`;
+
+export const FooterImage = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+
 `;

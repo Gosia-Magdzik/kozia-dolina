@@ -1,4 +1,4 @@
-import { Welcome, Wrapper, Text, SlideShow, StyledCarousel, Img, Info, ProductsGallery, Product } from "./styled";
+import { Welcome, Wrapper, Text, SlideShow, StyledCarousel, Img, ProductsGallery, Product, Footer, FooterImage, InfoContainer } from "./styled";
 import { Carousel } from "react-bootstrap";
 import welcome from "./Images/Witamy.png";
 import slide1 from "./Images/slide1.jpg";
@@ -8,6 +8,7 @@ import slide4 from "./Images/slide4.jpg";
 import smoked from "./Images/smoked.jpg";
 import cheese from "./Images/cheese.jpg";
 import milk from "./Images/milk.jpg";
+import meadow from "./Images/meadow.jpg";
 
 export const Home = () => {
     return (
@@ -49,12 +50,15 @@ export const Home = () => {
                 </SlideShow>
             </Wrapper>
             <hr/>
-            <Info>Zapraszamy do skosztowania naszych serów</Info>
+            <InfoContainer><p>Zapraszamy do skosztowania naszych serów</p></InfoContainer>
             <ProductsGallery>
                 <Product src={cheese}/>
                 <Product src={smoked}/>
                 <Product src={milk}/>
             </ProductsGallery>
+            <Footer>
+                <FooterImage src={meadow}/>
+            </Footer>
         </>
     );
 }

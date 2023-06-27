@@ -1,5 +1,4 @@
 import { createGlobalStyle, styled } from "styled-components";
-import meadow from "./images/meadow.jpg";
 import { Container } from "react-bootstrap";
 
 export const GlobalStyle = createGlobalStyle`
@@ -12,9 +11,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    //background-image: url(${meadow});
-    //background-size: 1900px auto;
-    //background-repeat: repeat;
     background-color: #2e66668a;
     margin: 0;
     display: flex;
