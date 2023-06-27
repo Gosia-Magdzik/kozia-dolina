@@ -4,21 +4,23 @@
     Welcome to the Goat Valley
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="./Github/wektorFotor.png" alt="png" height="200" style="object-fit: cover; width: 100%; height: 100%;">
+    <img src="./Github/wektorFotor.png"  height="20" style="object-fit: cover; width: 100%; height: 100%;">
   </div>
 </div>
+
 
 Kozia Dolina is a responsive website, inspired by journey, dedicated to showcasing a wonderful goat farm and the passion behind it. <br>Website aims to provide information about the farm, its activities.
 
 Whether you're a goat enthusiast, a nature lover, or simply curious about farm life, Kozia Dolina offers a glimpse into the world of goats and the joy they bring. I put attention to make a user-friendly and clear interface.
 
-<img src="./Github/map-location.svg" alt="png" height="10px" style="object-fit: cover; width: 100%; height: 100%;">
-<img src="./Github/bootstrap.svg" alt="png" height="200" style="object-fit: cover; width: 100%; height: 100%;">
-<img src="./Github/react.svg" alt="png" height="200" style="object-fit: cover; width: 100%; height: 100%;">
-<img src="./Github/router.svg" alt="png" height="200" style="object-fit: cover; width: 100%; height: 100%;">
-<img src="./Github/styled-components.svg" alt="png" height="200" style="object-fit: cover; width: 100%; height: 100%;">
+# Technologies
 
-<hr>
+<img src="./Github/map-location.svg" alt="png" height="50px">
+<img src="./Github/bootstrap.svg" height="50px">
+<img src="./Github/react.svg" height="50px">
+<img src="./Github/router.svg" height="50px">
+<img src="./Github/styled-components.svg" alt="png" height="50px">
+
 
 # Getting Started with Create React App
 
