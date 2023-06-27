@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @media (max-width: 575px) {
-    width: 400px;
+    max-width: 350px;
     //width: auto;
     margin: 200px 5px 50px 5px;
     padding: 3px;
