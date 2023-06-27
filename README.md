@@ -1,26 +1,23 @@
+<div align="center">
 
-<div style="display: flex; flex-direction:row; align-items: center;">
-  <div style="flex: 1; text-align: center; font-size: 28px;">
-    Welcome to the Goat Valley
-  </div>
-  <div style="flex: 1; text-align: right;">
-    <img src="./Github/wektorFotor.png"  height="150" >
-  </div>
-</div>
+# Welcome to the Goat Valley
 
+<img src="./Github/wektorFotor.png"  height="150" >
 
-Kozia Dolina is a responsive website, inspired by journey, dedicated to showcasing a wonderful goat farm and the passion behind it. <br>Website aims to provide information about the farm, its activities.
+'Kozia Dolina' is a responsive website, inspired by journey, dedicated to showcasing a wonderful goat farm and the passion behind it. <br>Website aims to provide information about the farm, its activities.
 
 Whether you're a goat enthusiast, a nature lover, or simply curious about farm life, Kozia Dolina offers a glimpse into the world of goats and the joy they bring. I put attention to make a user-friendly and clear interface.
 
 # Technologies
 
+<p float="left">
 <img src="./Github/map-location.svg" alt="png" height="50px">
 <img src="./Github/bootstrap.svg" height="50px">
 <img src="./Github/react.svg" height="50px">
 <img src="./Github/router.svg" height="50px">
 <img src="./Github/styled-components.svg" alt="png" height="50px">
-
+</p>
+</div>
 
 # Getting Started with Create React App
 
