@@ -1,16 +1,24 @@
 {
   "files": {
     "main.css": "/kozia-dolina/static/css/main.4da62354.css",
-    "main.js": "/kozia-dolina/static/js/main.e777d235.js",
+    "main.js": "/kozia-dolina/static/js/main.b0c9d89e.js",
     "static/js/787.173c38f8.chunk.js": "/kozia-dolina/static/js/787.173c38f8.chunk.js",
     "static/media/13.jpg": "/kozia-dolina/static/media/13.75fbbbc0fe81a4c24bb8.jpg",
     "static/media/12.jpg": "/kozia-dolina/static/media/12.ff6564081c04828df948.jpg",
     "static/media/07.jpg": "/kozia-dolina/static/media/07.f88db293328495fd2554.jpg",
     "static/media/06.jpg": "/kozia-dolina/static/media/06.0bb71cb18e5cba55f9b3.jpg",
+    "static/media/slide3.jpg": "/kozia-dolina/static/media/slide3.4a541fe58dece6cadae5.jpg",
+    "static/media/Witamy.png": "/kozia-dolina/static/media/Witamy.1aa591e48e7214a02a2c.png",
+    "static/media/slide1.jpg": "/kozia-dolina/static/media/slide1.2962fce184e10395086e.jpg",
     "static/media/11.jpg": "/kozia-dolina/static/media/11.30ecd6e67e930d19d696.jpg",
     "static/media/08.jpg": "/kozia-dolina/static/media/08.f2fddcf139e0f4c5e008.jpg",
+    "static/media/slide4.jpg": "/kozia-dolina/static/media/slide4.ecdc49128320fc791cfc.jpg",
+    "static/media/cheese.jpg": "/kozia-dolina/static/media/cheese.75a10c5b2675379f8c07.jpg",
+    "static/media/milk.jpg": "/kozia-dolina/static/media/milk.59b8dd224c601846c08f.jpg",
     "static/media/10.jpg": "/kozia-dolina/static/media/10.caaf69e21d39342d392d.jpg",
+    "static/media/smoked.jpg": "/kozia-dolina/static/media/smoked.caaf69e21d39342d392d.jpg",
     "static/media/meadow.jpg": "/kozia-dolina/static/media/meadow.b6a6086adb452091f591.jpg",
+    "static/media/slide2.jpg": "/kozia-dolina/static/media/slide2.c07f6420d97c3be9cc38.jpg",
     "static/media/03.jpg": "/kozia-dolina/static/media/03.f61155d3aa8207d1723a.jpg",
     "static/media/04.jpg": "/kozia-dolina/static/media/04.b2df2295ac1119410ebb.jpg",
     "static/media/05.jpg": "/kozia-dolina/static/media/05.969fbddcd023b6365413.jpg",
@@ -22,11 +30,11 @@
     "index.html": "/kozia-dolina/index.html",
     "static/media/facebook.svg": "/kozia-dolina/static/media/facebook.19618b8582d904a63977557e5c93420e.svg",
     "main.4da62354.css.map": "/kozia-dolina/static/css/main.4da62354.css.map",
-    "main.e777d235.js.map": "/kozia-dolina/static/js/main.e777d235.js.map",
+    "main.b0c9d89e.js.map": "/kozia-dolina/static/js/main.b0c9d89e.js.map",
     "787.173c38f8.chunk.js.map": "/kozia-dolina/static/js/787.173c38f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4da62354.css",
-    "static/js/main.e777d235.js"
+    "static/js/main.b0c9d89e.js"
   ]
 }
