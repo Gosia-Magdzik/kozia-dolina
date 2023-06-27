@@ -4,7 +4,7 @@
     Welcome to the Goat Valley
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="./Github/wektorFotor.png"  height="20" style="object-fit: cover; width: 100%; height: 100%;">
+    <img src="./Github/wektorFotor.png"  height="150" >
   </div>
 </div>
 
