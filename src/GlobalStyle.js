@@ -30,10 +30,12 @@ export const GlobalStyle = createGlobalStyle`
   @media (max-width: 768px) {
     margin: 200px 10px 50px 10px;
     padding: 5px;
+    width: 700px;
   }
 
   @media (max-width: 575px) {
-    width: 500px;
+    width: 400px;
+    width: auto;
     margin: 200px 5px 50px 5px;
     padding: 3px;
   }

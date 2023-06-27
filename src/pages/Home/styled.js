@@ -85,6 +85,10 @@ export const ProductsGallery = styled.div`
     justify-items: center;
     grid-gap: 10px;
     transition: 0.3s; 
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
 `;
 
 export const Product = styled.img`
@@ -113,7 +117,16 @@ export const Footer = styled.div`
     overflow: hidden;
     margin-top: 30px;
     margin-bottom: -20px;
-    position: relative;
+
+    @media (max-width: 768px) {
+        height: auto;
+        height: 100px;
+        margin-bottom: 2px;
+    }
+
+    @media (max-width: 575px) {
+        height: 80px;
+    }
 `;
 
 export const FooterImage = styled.img`
@@ -123,5 +136,6 @@ export const FooterImage = styled.img`
     filter: blur(3px);
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    overflow: hidden;
 
 `;

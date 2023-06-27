@@ -52,9 +52,9 @@ export const Home = () => {
             <hr/>
             <InfoContainer><p>Zapraszamy do skosztowania naszych serów</p></InfoContainer>
             <ProductsGallery>
+                <Product src={milk}/>
                 <Product src={cheese}/>
                 <Product src={smoked}/>
-                <Product src={milk}/>
             </ProductsGallery>
             <Footer>
                 <FooterImage src={meadow}/>

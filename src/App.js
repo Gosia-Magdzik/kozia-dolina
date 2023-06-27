@@ -11,7 +11,7 @@ function App() {
       <GlobalStyle/>
         <HashRouter>
           <Navigation/>
-          <StyledContainer className="fluid">
+          <StyledContainer>
             <Routes>
                 <Route
                   path="/"
