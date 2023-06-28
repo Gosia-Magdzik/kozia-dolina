@@ -8,6 +8,8 @@
 
 Whether you're a goat enthusiast, a nature lover, or simply curious about farm life, Kozia Dolina offers a glimpse into the world of goats and the joy they bring. I put attention to make a user-friendly and clear interface.
 
+# Click to see demo: [👉Link](https://gosia-magdzik.github.io/kozia-dolina/)
+
 # Technologies
 
 <p float="left">
